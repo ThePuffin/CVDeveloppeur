@@ -20,7 +20,7 @@ class App extends Component {
         <header className="App-header">
           <h1 className="App-title">{this.state.nom} {this.state.prenom}</h1>
           <h3>{this.state.poste}</h3>
-          {/* <h5>HTML, CSS, Bootstrap, Javascript, NodeJS, REACT</h5> */}
+          <h5>Disponible à partir de mi-août 2018</h5>
         </header>
         <Presentation />
         <Parcours />

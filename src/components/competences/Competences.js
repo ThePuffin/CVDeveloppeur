@@ -20,6 +20,8 @@ class Competences extends Component {
             <p>JavaScript</p>
             <p>NodeJS</p>
             <p>React</p>
+            <p>JQuery</p>
+            <p>MySQL</p>
             <p>Logiciels</p>
             <p>Pack microsoft office</p>
             <p>Autocad</p>

@@ -10,6 +10,7 @@ class Parcours extends Component {
       <div>
         <div className="container">
           <h3> Parcours professionnel </h3>
+          <br />
           <h4> Principales expériences professionnelles </h4>
           <div className="row">
             <div className="col-4">

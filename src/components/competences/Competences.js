@@ -32,11 +32,11 @@ class Competences extends Component {
               <img src={imgsass} className="icons" alt="sass" /> SASS
             </p>
             <p className="pFont">
-              <img src={imgjavascript} className="icons" alt="javascript" />JavaScript
-              ES6
+              <img src={imgjavascript} className="icons" alt="javascript" />{" "}
+              JavaScript ES6
             </p>
             <p className="pFont">
-              <img src={imgnodejs} className="icons" alt="nodejs" />NodeJS
+              <img src={imgnodejs} className="icons" alt="nodejs" /> NodeJS
             </p>
             <p className="pFont">
               <img src={imgreact} className="icons" alt="react" /> React

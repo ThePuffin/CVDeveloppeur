@@ -12,7 +12,7 @@ class App extends Component {
     this.state = {
       nom: "BALLUT",
       prenom: "Vincent",
-      poste: "Developpeur WEB junior"
+      poste: "Développeur WEB junior"
     };
   }
   render() {

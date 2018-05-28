@@ -16,7 +16,8 @@ class Presentation extends Component {
     };
   }
   render() {
-    return <div className="Container">
+    return (
+      <div className="Container">
         <div className="row">
           <div className="container col-4">
             <br />
@@ -33,7 +34,11 @@ class Presentation extends Component {
             </p>
           </div>
           <div className=" col-4">
-            <img className="imgProfil" src="https://media.licdn.com/dms/image/C5603AQHsaD85_sHIOA/profile-displayphoto-shrink_200_200/0?e=1533168000&v=beta&t=rYIDZU0nlnqJSRtIcB5TOVO5insys-ErATt3lj1aQYI" alt="Vincent BALLUT" />
+            <img
+              className="imgProfil"
+              src="https://media.licdn.com/dms/image/C5603AQHsaD85_sHIOA/profile-displayphoto-shrink_200_200/0?e=1533168000&v=beta&t=rYIDZU0nlnqJSRtIcB5TOVO5insys-ErATt3lj1aQYI"
+              alt="Vincent BALLUT"
+            />
           </div>
           <div className="Container col-4">
             <br />
@@ -44,11 +49,12 @@ class Presentation extends Component {
               <i class="fas fa-envelope-square" /> Email : {this.state.mail}
             </p>
             <p className="headerFont">
-              <i class="fab fa-github-square" /> GITHUB : {this.state.github}
+              <i class="fab fa-github-square" /> GitHub : {this.state.github}
             </p>
           </div>
         </div>
-      </div>;
+      </div>
+    );
   }
 }
 

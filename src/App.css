@@ -1,28 +1,56 @@
-.App {
-  text-align: center;
+html {
+    font-size: 62.5%;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.App {
+    text-align: center;
 }
 
 .App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+    background-color: rgb(47, 59, 59);
+    height: 10rem;
+    padding: 2rem;
+    color: white;
 }
 
 .App-title {
-  font-size: 1.5em;
+    font-size: 1.5rem;
 }
 
 .App-intro {
-  font-size: large;
+    font-size: large;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+body {
+    background-image: url("./images/clairfondecran.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Bree Serif", serif;
 }
+
+span {
+    font-family: "Bree Serif", serif;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+
+li {
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 2.1rem;
+    font-weight: bolder;
+    background-image: linear-gradient(120deg, transparent 0%, transparent 35%, rgb(212, 212, 212) 35%, rgb(120, 130, 150) 65%, transparent 65%, transparent 100%);
+    height: 5vh;
+}
+
+h5 {
+    font-size: 1.8rem;
+}
+
+p{
+    font-size : 1.6rem;
+}
+

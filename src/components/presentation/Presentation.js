@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./Presentation.css";
 
 class Presentation extends Component {
   constructor(props) {
@@ -10,29 +11,44 @@ class Presentation extends Component {
       mail: "ballutvincent@gmail.com",
       github: "ThePuffin",
       twitter: "Vincent_Ballut",
-      vehicule: "vehicule personnel",
+      vehicule: "Véhicule personnel",
       situation: "Celibataire"
     };
   }
   render() {
-    return (
-      <div className="Container">
+    return <div className="Container">
         <div className="row">
-          <div className="container col-6">
-            <p>{this.state.rue}</p>
-            <p>{this.state.ville}</p>
+          <div className="container col-4">
             <br />
-            <p>{this.state.vehicule}</p>
+            <p className="headerFont">
+              <i class="fas fa-road" /> {this.state.rue}
+            </p>
+            <p className="headerFont">
+              <i class="fas fa-home" /> {this.state.ville}
+            </p>
+
+            <p className="headerFont">
+              <i class="fas fa-car" />
+              {this.state.vehicule}
+            </p>
           </div>
-          <div className="Container col-6">
-            <p>Téléphone : {this.state.tel}</p>
-            <p>Email : {this.state.mail}</p>
-            <p>GITHUB : {this.state.github}</p>
-            <p>Twitter: {this.state.twitter}</p>
+          <div className=" col-4">
+            <img className="imgProfil" src="https://media.licdn.com/dms/image/C5603AQHsaD85_sHIOA/profile-displayphoto-shrink_200_200/0?e=1533168000&v=beta&t=rYIDZU0nlnqJSRtIcB5TOVO5insys-ErATt3lj1aQYI" alt="Vincent BALLUT" />
+          </div>
+          <div className="Container col-4">
+            <br />
+            <p className="headerFont">
+              <i class="fas fa-phone-square" /> Téléphone : {this.state.tel}
+            </p>
+            <p className="headerFont">
+              <i class="fas fa-envelope-square" /> Email : {this.state.mail}
+            </p>
+            <p className="headerFont">
+              <i class="fab fa-github-square" /> GITHUB : {this.state.github}
+            </p>
           </div>
         </div>
-      </div>
-    );
+      </div>;
   }
 }
 

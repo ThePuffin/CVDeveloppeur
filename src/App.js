@@ -10,21 +10,13 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      nom: "BALLUT",
-      prenom: "Vincent",
-      poste: "Développeur WEB junior"
+     
     };
   }
   render() {
     return (
       <div className="App">
         <header className="App-header">
-          <h1>
-            {this.state.nom} {this.state.prenom}
-          </h1>
-
-          <h2>{this.state.poste}</h2>
-
           <Presentation />
         </header>
         <div>

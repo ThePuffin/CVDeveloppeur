@@ -1,13 +1,14 @@
-import React, {
-  Component
-} from "react";
+import React, { Component } from "react";
 import "./Presentation.css";
-import photoProfil from "../../images/vinz.jpg";
+import photoProfil from "../../images/vince.jpg";
 
 class Presentation extends Component {
   constructor(props) {
     super(props);
     this.state = {
+      nom: "BALLUT",
+      prenom: "Vincent",
+      poste: "Développeur WEB junior",
       rue: "3 boulevard Eugène Reguillon",
       ville: "69100 VILLEURBANNE",
       tel: "07.81.53.05.38",
@@ -17,7 +18,6 @@ class Presentation extends Component {
       nationalite: "Nationalité française",
       situation: "Celibataire",
       anniversaire: "1981/08/13"
-
     };
     this.age = this.age.bind(this);
   }
@@ -29,88 +29,63 @@ class Presentation extends Component {
     return age;
   }
   render() {
-    return <div className = "row" >
-      <
-      div className = "container col-4" >
-      <
-      img className = "imgProfil"
-    src = {
-      photoProfil
-    }
-    alt = "Vincent BALLUT" / >
-      <
-      /div>
+    return (
+      <div>
+        <div className="row">
+          <div className="container col-4">
+            <img className="imgProfil" src={photoProfil} alt="Vincent BALLUT" />
+          </div>
+          <br />
+          <div className="container col-8">
+            <div className="row lignePresentation">
+              <h1 className="col-6">
+                {this.state.nom} {this.state.prenom}
+              </h1>
 
-      <
-      br / >
-      <
-      div className = "container col-8" >
-      <
-      div className = "row" >
-      <
-      div className = "col-6" >
-      <
-      br / >
-      <
-      p className = "headerFont" >
-      <
-      i class = "fas fa-road" / > {
-        this.state.rue
-      } <
-      /p> <
-      p className = "headerFont" >
-      <
-      i class = "fas fa-home" / > {
-        this.state.ville
-      } <
-      /p> <
-      br / >
-      <
-      p className = "headerFont" >
-      <
-      i class = "fas fa-phone-square" / > Téléphone: {
-        this.state.tel
-      } <
-      /p> <
-      p className = "headerFont" >
-      <
-      i class = "fas fa-envelope-square" / > Email: {
-        this.state.mail
-      } <
-      /p> <
-      /div> <
-      div className = "col-6" >
-      <
-      br / >
-      <
-      p className = "headerFont" >
-      <
-      i class = "fas fa-birthday-cake" > < /i> {this.age(this.state.anniversaire)} ans <
-      /p> <
-      p className = "headerFont" >
-      <
-      i class = "fas fa-flag" / > {
-        this.state.nationalite
-      } <
-      /p> <
-      br / >
-      <
-      p className = "headerFont" >
-      <
-      i class = "fab fa-github-square" / > GitHub: {
-        this.state.github
-      } <
-      /p> <
-      p className = "headerFont" >
-      <
-      i class = "fab fa-twitter-square" / > Twitter: {
-        this.state.twitter
-      } <
-      /p> <
-      /div> <
-      /div> <
-      /div> <
-      /div>;
+              <h2 className="col-6">{this.state.poste}</h2>
+            </div>
+
+            <div className="row">
+              <div className="col-6">
+                <br />
+                <p className="headerFont">
+                  <i class="fas fa-road" /> {this.state.rue}
+                </p>
+                <p className="headerFont">
+                  <i class="fas fa-home" /> {this.state.ville}
+                </p>
+                <br />
+                <p className="headerFont">
+                  <i class="fas fa-phone-square" /> Téléphone: {this.state.tel}
+                </p>
+                <p className="headerFont">
+                  <i class="fas fa-envelope-square" /> Email: {this.state.mail}
+                </p>
+              </div>
+              <div className="col-6">
+                <br />
+                <p className="headerFont">
+                  <i class="fas fa-birthday-cake"> </i>
+                  &nbsp;
+                  {this.age(this.state.anniversaire)} ans
+                </p>
+                <p className="headerFont">
+                  <i class="fas fa-flag" /> {this.state.nationalite}
+                </p>
+                <br />
+                <p className="headerFont">
+                  <i class="fab fa-github-square" /> GitHub: {this.state.github}
+                </p>
+                <p className="headerFont">
+                  <i class="fab fa-twitter-square" /> Twitter:
+                  {this.state.twitter}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
   }
 }
 

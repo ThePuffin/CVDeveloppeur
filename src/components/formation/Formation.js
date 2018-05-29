@@ -7,41 +7,51 @@ class Formation extends Component {
     this.state = {};
   }
   render() {
-    return (
-      <div className="container">
-        <h3>Formation</h3>
-        <h5>2018 => FORMATION DEVELOPPEUR WEB</h5>
-        <p>
-          
-          Wild Code School - Lyon
-          <span> : spécialisation Javascript</span>
-        </p>
-        <h5>2004-2005 => MASTER PROFESSIONNEL</h5>
-        <p>
-          Université Blaise Pascal – Clermont Ferrand
-          <span> : Géologie de l’aménagement </span>
-        </p>
-        <h5>2003-2004 => MAITRISE Sciences exactes et naturelles</h5>
-        <p>
-          Université Blaise Pascal – Clermont Ferrand
-          <span> : Mention Sciences de la Terre et de l’univers Option Géotechnique 
-          </span>
-        </p>
-        <h5>2002-2003 => LICENCE Sciences exactes et naturelles</h5>
-        <p>
-          Université Blaise Pascal – Clermont Ferrand
-          <span> : Mention Sciences de la Terre et de l’univers Option Volcanologie
-          </span>
-        </p>
-        <h5>2000-2002 => DEUG Sciences exactes et naturelles</h5>
-        <p>
-          Université Blaise Pascal – Clermont Ferrand
-          <span>
-             : Mention Sciences de la Terre et de l’univers Option Volcanologie
-          </span>
-        </p>
-      </div>
-    );
+    return <div>
+        <h3 className="droite">Formation</h3>
+        <br />
+        <div className="row">
+          <div className="offset-2 col-4">
+            <span>2018</span>
+            <h5>FORMATION DEVELOPPEUR WEB</h5>
+            <p>Wild Code School - Lyon</p>
+            <span>Spécialisation Javascript</span>
+          </div>
+          <div className="col-4 ">
+            <span>2004-2005</span>
+            <h5>MASTER PROFESSIONNEL</h5>
+            <p>Université Blaise Pascal – Clermont Ferrand</p>
+            <span>Géologie de l’aménagement </span>
+          </div>
+        </div>
+        <br />>
+        <div className="row">
+          <div className="col-4">
+            <span>2003-2004</span>
+            <h5>MAITRISE Sciences exactes et naturelles</h5>
+            <p>Université Blaise Pascal – Clermont Ferrand</p>
+            <span>
+              Mention Sciences de la Terre et de l’univers <br />Option Géotechnique
+            </span>
+          </div>
+          <div className="col-4">
+            <span>2002-2003</span>
+            <h5>LICENCE Sciences exactes et naturelles</h5>
+            <p>Université Blaise Pascal – Clermont Ferrand</p>
+            <span>
+              Mention Sciences de la Terre et de l’univers <br />Option Volcanologie
+            </span>
+          </div>
+          <div className="col-4">
+            <span>2000-2002</span>
+            <h5>DEUG Sciences exactes et naturelles</h5>
+            <p>Université Blaise Pascal – Clermont Ferrand</p>
+            <span>
+              Mention Sciences de la Terre et de l’univers <br />Option Volcanologie
+            </span>
+          </div>
+        </div>
+      </div>;
   }
 }
 

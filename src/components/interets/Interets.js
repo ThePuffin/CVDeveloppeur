@@ -7,8 +7,9 @@ class Interets extends Component {
     this.state = {};
   }
   render() {
-    return <div className="container">
-        <h3>Centres d'intêrets</h3>
+    return <div >
+        <h3 className="droite">Centres d'intêrets</h3>
+        <br/>
         <div className="row">
           <div className="col-4">
             <p className="pFont">

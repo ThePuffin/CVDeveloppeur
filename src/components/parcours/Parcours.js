@@ -7,8 +7,7 @@ class Parcours extends Component {
     this.state = {};
   }
   render() {
-    return (
-      <div>
+    return <div>
         <h3> Parcours professionnel </h3>
         <br />
 
@@ -54,28 +53,28 @@ class Parcours extends Component {
           <div className="col-4 ">
             <span> Juin 2006 à mai 2017 </span>
             <hr className="petitTrait traitBas" />
-            <p className="colle">|</p>
+            <p className="colle traitVertHaut">|</p>
           </div>
           <div className="col-4 ">
             <span>Novembre2005 à Février 2006</span>
             <hr className="petitTrait traitBas" />
-            <p className="colle">|</p>
+            <p className="colle traitVertHaut">|</p>
           </div>
           <div className="col-4 ">
             <span>Ete 2002 et 2003</span>
             <hr className="petitTrait traitBas" />
-            <p className="colle">|</p>
+            <p className="colle traitVertHaut">|</p>
           </div>
         </div>
         <hr className="dateLigne" />
         <div className="row">
           <div className="offset-2 col-4 ">
-            <p className="colle">|</p>
+            <p className="colle traitVertBas">|</p>
             <hr className="petitTrait traitHaut" />
             <span>Avril à mai 2006</span>
           </div>
           <div className="col-4 ">
-            <p className=" colle">|</p>
+            <p className=" colle traitVertBas">|</p>
             <hr className="petitTrait traitHaut" />
             <span>Avril à Septembre 2005</span>
           </div>
@@ -108,8 +107,7 @@ class Parcours extends Component {
             </p>
           </div>
         </div>
-      </div>
-    );
+      </div>;
   }
 }
 

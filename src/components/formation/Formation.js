@@ -38,28 +38,28 @@ class Formation extends Component {
           <div className="col-4 ">
             <span>2018</span>
             <hr className="petitTrait traitBas" />
-            <p className="colle">|</p>
+            <p className="colle traitVertHaut">|</p>
           </div>
           <div className="col-4 ">
             <span>2004-2003</span>
             <hr className="petitTrait traitBas" />
-            <p className="colle">|</p>
+            <p className="colle traitVertHaut">|</p>
           </div>
           <div className="col-4 ">
             <span>2002-2000</span>
             <hr className="petitTrait traitBas" />
-            <p className="colle">|</p>
+            <p className="colle traitVertHaut">|</p>
           </div>
         </div>
         <hr className="dateLigne" />
         <div className="row">
           <div className="offset-2 col-4 ">
-            <p className="colle">|</p>
+            <p className="colle traitVertBas">|</p>
             <hr className="petitTrait traitHaut" />
             <span>2005-2004</span>
           </div>
           <div className="col-4 ">
-            <p className=" colle">|</p>
+            <p className=" colle traitVertBas">|</p>
             <hr className="petitTrait traitHaut" />
             <span>2003-2002</span>
           </div>

@@ -10,8 +10,7 @@ p {
     margin-bottom: 0;
     width: 75%;
     height: 2px;
-    background-color: black;
-    border: none;
+    background-color: rgb(47, 59, 59);
 }
 
 .petitTrait {
@@ -21,18 +20,28 @@ p {
     margin-bottom: 0;
     width: 10%;
     height: 0.3rem;
-    background-image: linear-gradient( transparent 0%, transparent 30%, rgb(0, 0, 0) 30%, rgb(0, 0, 0) 60%, transparent 60%, transparent 100%);
+    background-image: linear-gradient( transparent 0%, transparent 30%, rgb(47, 59, 59) 30%, rgb(47, 59, 59) 60%, transparent 60%, transparent 100%);
     border: none;
 }
 
 .traitHaut {
     position: relative;
-    bottom: 0.6rem;
+    bottom: 1.3rem;
 }
 
 .traitBas {
     position: relative;
-    top: 0.5rem;
+    top: 1.1rem;
+}
+
+.traitVertBas {
+    position: relative;
+    bottom: 0.6rem;
+}
+
+.traitVertHaut {
+    position: relative;
+    top: 0.6rem;
 }
 
 .colle {
@@ -40,5 +49,6 @@ p {
     margin-top: 0;
     padding-bottom: 0;
     margin-bottom: 0;
+    color: rgb(47, 59, 59);
+    font-size: 2rem;
 }
-

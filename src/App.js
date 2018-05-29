@@ -23,9 +23,9 @@ class App extends Component {
         <br/>
           <Parcours />
           <hr />
-          <Competences />
-          <hr />
           <Formation />
+          <hr />
+          <Competences />
           <hr />
           <Interets />
         </div>

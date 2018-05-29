@@ -19,18 +19,16 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <div className="row">
-            <div className="col-12">
-              <h1>
-                {this.state.nom} {this.state.prenom}
-              </h1>
-              <h2>{this.state.poste}</h2>
-            </div>
-          </div>
+          <h1>
+            {this.state.nom} {this.state.prenom}
+          </h1>
+
+          <h2>{this.state.poste}</h2>
+
+          <Presentation />
         </header>
         <div>
-          <Presentation />
-          <hr />
+        <br/>
           <Parcours />
           <hr />
           <Formation />

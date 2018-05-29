@@ -22,12 +22,12 @@ class Competences extends Component {
         <br />
 
         <div className="row">
-          <div className="container col-6">
+          <div className="container col-4">
             <div>
-              <h5>Langages et frameworks</h5>
+              <h4>Langages et frameworks</h4>
             </div>
             <div className="row">
-              <div className="col-6">
+              <div className="offset-2 col-4">
                 <p className="pFont">
                   <img src={imgHTLM} className="icons" alt="html" /> HTML 5
                 </p>
@@ -45,7 +45,7 @@ class Competences extends Component {
                   <img src={imgnodejs} className="icons" alt="nodejs" /> NodeJS
                 </p>
               </div>
-              <div className="col-6">
+              <div className="col-4">
                 <p className="pFont">
                   <img src={imgreact} className="icons" alt="react" /> React
                 </p>
@@ -67,17 +67,17 @@ class Competences extends Component {
             </div>
           </div>
 
-          <div className="col-3">
-            <h5>Langues</h5>
+          <div className="col-4">
+            <h4>Langues</h4>
             <p className="pFont">Anglais (oral et écrit)</p>
             <br />
-            <h5>Système d'exploitation</h5>
+            <h4>Système d'exploitation</h4>
             <p className="pFont">Microsoft Windows</p>
             <p className="pFont">Linux Ubuntu</p>
             <br />
           </div>
-          <div className="col-3">
-            <h5>Logiciels</h5>
+          <div className="col-4">
+            <h4>Logiciels</h4>
             <p className="pFont">Visualcode</p>
             <p className="pFont">GitHub</p>
             <p className="pFont">Pack Microsoft Office 2016</p>

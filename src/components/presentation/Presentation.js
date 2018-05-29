@@ -1,5 +1,8 @@
-import React, { Component } from "react";
+import React, {
+  Component
+} from "react";
 import "./Presentation.css";
+import photoProfil from "../../images/vinz.jpg";
 
 class Presentation extends Component {
   constructor(props) {
@@ -11,59 +14,103 @@ class Presentation extends Component {
       mail: "ballutvincent@gmail.com",
       github: "ThePuffin",
       twitter: "Vincent_Ballut",
-      vehicule: "Véhicule personnel",
+      nationalite: "Nationalité française",
       situation: "Celibataire",
-      anniversaire : "1981/08/13"
-    }
-    // Age(){
-    //   let birthdate = new Date({this.state.anniversaire});
-    //   let cur = new Date();
-    //   let diff = cur-birthdate;
-    //   let age = Math.floor(diff/31557600000);
-    //   return age;
-    // }
+      anniversaire: "1981/08/13"
+
+    };
+    this.age = this.age.bind(this);
+  }
+  age(anniversaire) {
+    let birthdate = new Date(anniversaire);
+    let cur = new Date();
+    let diff = cur - birthdate;
+    let age = Math.floor(diff / 31557600000);
+    return age;
   }
   render() {
-    return <div className="Container">
-        <br />
-        <div className="row">
-          <div className="container col-4">
-            <br />
-            <p className="headerFont">
-              <i class="fas fa-road" /> {this.state.rue}
-            </p>
-            <p className="headerFont">
-              <i class="fas fa-home" /> {this.state.ville}
-            </p>
+    return <div className = "row" >
+      <
+      div className = "container col-4" >
+      <
+      img className = "imgProfil"
+    src = {
+      photoProfil
+    }
+    alt = "Vincent BALLUT" / >
+      <
+      /div>
 
-            <p className="headerFont">
-              <i class="fas fa-car" />
-              {this.state.vehicule}
-            </p>
-            <p className="headerFont">
-              <i class="fas fa-fast-forward" /> {}
-            </p>
-          </div>
-          <div className=" col-4">
-            <img className="imgProfil" src="https://media.licdn.com/dms/image/C5603AQHsaD85_sHIOA/profile-displayphoto-shrink_200_200/0?e=1533168000&v=beta&t=rYIDZU0nlnqJSRtIcB5TOVO5insys-ErATt3lj1aQYI" alt="Vincent BALLUT" />
-          </div>
-          <div className="Container col-4">
-            <br />
-            <p className="headerFont">
-              <i class="fas fa-phone-square" /> Téléphone : {this.state.tel}
-            </p>
-            <p className="headerFont">
-              <i class="fas fa-envelope-square" /> Email : {this.state.mail}
-            </p>
-            <p className="headerFont">
-              <i class="fab fa-github-square" /> GitHub : {this.state.github}
-            </p>
-            <p className="headerFont">
-              <i class="fab fa-twitter-square" /> Twitter : {this.state.twitter}
-            </p>
-          </div>
-        </div>
-      </div>;
+      <
+      br / >
+      <
+      div className = "container col-8" >
+      <
+      div className = "row" >
+      <
+      div className = "col-6" >
+      <
+      br / >
+      <
+      p className = "headerFont" >
+      <
+      i class = "fas fa-road" / > {
+        this.state.rue
+      } <
+      /p> <
+      p className = "headerFont" >
+      <
+      i class = "fas fa-home" / > {
+        this.state.ville
+      } <
+      /p> <
+      br / >
+      <
+      p className = "headerFont" >
+      <
+      i class = "fas fa-phone-square" / > Téléphone: {
+        this.state.tel
+      } <
+      /p> <
+      p className = "headerFont" >
+      <
+      i class = "fas fa-envelope-square" / > Email: {
+        this.state.mail
+      } <
+      /p> <
+      /div> <
+      div className = "col-6" >
+      <
+      br / >
+      <
+      p className = "headerFont" >
+      <
+      i class = "fas fa-birthday-cake" > < /i> {this.age(this.state.anniversaire)} ans <
+      /p> <
+      p className = "headerFont" >
+      <
+      i class = "fas fa-flag" / > {
+        this.state.nationalite
+      } <
+      /p> <
+      br / >
+      <
+      p className = "headerFont" >
+      <
+      i class = "fab fa-github-square" / > GitHub: {
+        this.state.github
+      } <
+      /p> <
+      p className = "headerFont" >
+      <
+      i class = "fab fa-twitter-square" / > Twitter: {
+        this.state.twitter
+      } <
+      /p> <
+      /div> <
+      /div> <
+      /div> <
+      /div>;
   }
 }
 

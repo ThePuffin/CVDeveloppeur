@@ -7,12 +7,13 @@ class Parcours extends Component {
     this.state = {};
   }
   render() {
-    return <div>
+    return (
+      <div>
         <h3> Parcours professionnel </h3>
         <br />
 
         <div className="row">
-          <div className="offset-2 col-4">
+          <div className="col-4">
             <span> Juin 2006 à mai 2017 </span>
             <h5> Chargé d 'affaire géotechnique : EgSol</h5>
             <ul>
@@ -49,9 +50,6 @@ class Parcours extends Component {
               </li>
             </ul>
           </div>
-        </div>
-        <br />
-        <div className="row">
           <div className="col-4">
             <span>Novembre2005 à Février 2006</span>
             <h5>Conducteur de travaux : Lacroix Signalisation </h5>
@@ -70,7 +68,10 @@ class Parcours extends Component {
               </li>
             </ul>
           </div>
-          <div className="col-4">
+        </div>
+        <br />
+        <div className="row">
+          <div className="offset-2 col-4">
             <span>Avril à Septembre 2005</span>
             <h5>Technicien de Laboratoire : Appia</h5>
             <ul>
@@ -95,7 +96,8 @@ class Parcours extends Component {
             <p className="pFont">Guide– Animateur : Volcan de Lemptegy </p>
           </div>
         </div>
-      </div>;
+      </div>
+    );
   }
 }
 

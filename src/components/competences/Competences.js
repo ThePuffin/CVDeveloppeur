@@ -18,7 +18,7 @@ class Competences extends Component {
   render() {
     return (
       <div>
-        <h3 className="droite">Mes compétences</h3>
+        <h3>Mes compétences</h3>
         <br />
 
         <div className="row">

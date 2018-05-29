@@ -7,39 +7,41 @@ class Parcours extends Component {
     this.state = {};
   }
   render() {
-    return <div>
+    return (
+      <div>
         <h3> Parcours professionnel </h3>
         <br />
 
         <div className="row">
           <div className="col-4">
-            <h5> Chargé d 'affaire géotechnique : EgSol</h5>
-            <ul>
-              <li>
-                Préparation de chantier(DICT, plans, ...)<br />{" "}
-              </li>
-              <li>
-                Gestion des clients<br />{" "}
-              </li>
-              <li>
-                Réalisation de sondage in -situ<br />{" "}
-              </li>
-              <li> Rédaction de rapport de type G1, G2 et G5 </li>
-            </ul>
+            <h5> Chargé d'affaires géotechnique : EgSol</h5>
+
+            <p className="descriptionParcours">
+              Préparation de chantier(DICT, plans, ...)<br />
+            </p>
+            <p className="descriptionParcours">
+              Gestion des clients<br />
+            </p>
+            <p className="descriptionParcours">
+              Réapsation de sondage in-situ<br />
+            </p>
+            <p className="descriptionParcours">
+              {" "}
+              Rédaction de rapports de type G1, G2 et G5{" "}
+            </p>
           </div>
           <div className="col-4">
             <h5>Conducteur de travaux : Lacroix Signalisation </h5>
-            <ul>
-              <li>
-                Préparation de chantier<br />{" "}
-              </li>
-              <li>
-                Echanges avec les différents intervenants<br />{" "}
-              </li>
-              <li>
-                Suivi du chantier <br />{" "}
-              </li>
-            </ul>
+
+            <p className="descriptionParcours">
+              Préparation de chantier<br />
+            </p>
+            <p className="descriptionParcours">
+              Echanges avec les différents intervenants<br />
+            </p>
+            <p className="descriptionParcours">
+              Suivi du chantier <br />
+            </p>
           </div>
           <div className="col-4">
             <h5> Autres expériences professionnelles</h5>
@@ -81,34 +83,33 @@ class Parcours extends Component {
         <div className="row">
           <div className="offset-2 col-4">
             <h5>Technicien en pathologie : CEBTP </h5>
-            <ul>
-              <li>
-                Préparation de chantier<br />{" "}
-              </li>
-              <li>
-                Réalisation de carottages<br />{" "}
-              </li>
-              <li>
-                Redaction de compte-rendu<br />{" "}
-              </li>
-            </ul>
+
+            <p className="descriptionParcours">
+              Préparation de chantier<br />
+            </p>
+            <p className="descriptionParcours">
+              Réalisation de carottages<br />
+            </p>
+            <p className="descriptionParcours">
+              Redaction de compte-rendu<br />
+            </p>
           </div>
           <div className="col-4">
             <h5>Technicien de Laboratoire : Appia</h5>
-            <ul>
-              <li>
-                Contrôle des formules des enrobés<br />{" "}
-              </li>
-              <li>
-                Réalisation d 'essais de chargement à la plaque<br />{" "}
-              </li>
-              <li>
-                Redaction de compte rendu des réusltats<br />{" "}
-              </li>
-            </ul>
+
+            <p className="descriptionParcours">
+              Contrôle des formules des enrobés<br />
+            </p>
+            <p className="descriptionParcours">
+              Réalisation d'essais de chargement à la plaque<br />
+            </p>
+            <p className="descriptionParcours">
+              Rédaction de compte rendu des résultats<br />
+            </p>
           </div>
         </div>
-      </div>;
+      </div>
+    );
   }
 }
 

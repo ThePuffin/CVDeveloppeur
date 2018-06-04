@@ -142,3 +142,25 @@ h5 {
     color: rgb(47, 59, 59);
     font-size: 2rem;
 }
+
+/* responsive  */
+
+@media all and (max-width: 600px) {
+    .petitTrait {
+        display: none;
+    }
+    p {
+        font-size: 1.2rem;
+    }
+    h3 {
+        font-size: 2rem;
+        background-image: linear-gradient( to left, rgb(120, 130, 150) 0%, rgb(212, 212, 212) 50%, rgb(120, 130, 150) 100%);
+    }
+    .droite {
+        background-image: linear-gradient( to left, rgb(120, 130, 150) 0%, rgb(212, 212, 212) 50%, rgb(120, 130, 150) 100%);
+    }
+
+    h5{
+        font-size : 1.6rem;
+    }
+}

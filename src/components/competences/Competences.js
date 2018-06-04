@@ -43,7 +43,7 @@ class Competences extends Component {
                   <img src={imgnodejs} className="icons" alt="nodejs" /> NodeJS
                 </p>
               </div>
-              <div className="col-sm-12 col-md-6">
+              <div className="col-sm-12  col-md-6">
                 <p className="pFont">
                   <img src={imgreact} className="icons" alt="react" /> React
                 </p>

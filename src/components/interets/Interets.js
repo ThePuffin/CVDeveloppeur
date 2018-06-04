@@ -15,31 +15,31 @@ class Interets extends Component {
         <div className="row">
             <div className="col-6">
               <p className="pFont">
-                <i class="fas fa-book" /> Lecture
+                <i className="fas fa-book" /> Lecture
               </p>
 
               <p className="pFont">
-                <i class="fas fa-film" /> Cinéma
+                <i className="fas fa-film" /> Cinéma
               </p>
               <p className="pFont">
-                <i class="fas fa-headphones" /> Musique
+                <i className="fas fa-headphones" /> Musique
               </p>
               <p className="pFont">
-                <i class="fas fa-gamepad" /> Jeux vidéos
+                <i className="fas fa-gamepad" /> Jeux vidéos
               </p>
             </div>
             <div className="col-6">
               <p className="pFont">
-                <i class="fas fa-plane" /> Voyages
+                <i className="fas fa-plane" /> Voyages
               </p>
               <p className="pFont">
-                <i class="fas fa-utensils" /> Gastronomie
+                <i className="fas fa-utensils" /> Gastronomie
               </p>
               <p className="pFont">
-                <i class="fas fa-hockey-puck" /> Hockey
+                <i className="fas fa-hockey-puck" /> Hockey
               </p>
               <p className="pFont">
-                <i class="fas fa-football-ball" /> Rugby
+                <i className="fas fa-football-ball" /> Rugby
               </p>
             </div>
           </div>

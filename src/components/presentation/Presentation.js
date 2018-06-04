@@ -29,63 +29,60 @@ class Presentation extends Component {
     return age;
   }
   render() {
-    return (
-      <div>
+    return <div>
         <div className="row">
-          <div className="container col-4">
+          <div className="container d-none d-md-block col-md-4 ">
             <img className="imgProfil" src={photoProfil} alt="Vincent BALLUT" />
           </div>
           <br />
-          <div className="container col-8">
+          <div className="container col-sm-12 col-md-8">
             <div className="row lignePresentation">
-              <h1 className="col-6">
+              <h1 className="col-sm-4 col-6">
                 {this.state.nom} {this.state.prenom}
               </h1>
 
-              <h2 className="col-6">{this.state.poste}</h2>
+              <h2 className="col-sm-4 col-6">{this.state.poste}</h2>
             </div>
 
             <div className="row">
-              <div className="col-6">
+              <div className="col-sm-4 col-6">
                 <br />
                 <p className="headerFont">
-                  <i class="fas fa-road" /> {this.state.rue}
+                  <i className="fas fa-road" /> {this.state.rue}
                 </p>
                 <p className="headerFont">
-                  <i class="fas fa-home" /> {this.state.ville}
+                  <i className="fas fa-home" /> {this.state.ville}
                 </p>
                 <br />
                 <p className="headerFont">
-                  <i class="fas fa-phone-square" /> Téléphone: {this.state.tel}
+                  <i className="fas fa-phone-square" /> Téléphone: {this.state.tel}
                 </p>
                 <p className="headerFont">
-                  <i class="fas fa-envelope-square" /> Email: {this.state.mail}
+                  <i className="fas fa-envelope-square" /> Email: {this.state.mail}
                 </p>
               </div>
-              <div className="col-6">
+              <div className="col-sm-4 col-6">
                 <br />
                 <p className="headerFont">
-                  <i class="fas fa-birthday-cake"> </i>
+                  <i className="fas fa-birthday-cake"> </i>
                   &nbsp;
                   {this.age(this.state.anniversaire)} ans
                 </p>
                 <p className="headerFont">
-                  <i class="fas fa-flag" /> {this.state.nationalite}
+                  <i className="fas fa-flag" /> {this.state.nationalite}
                 </p>
                 <br />
                 <p className="headerFont">
-                  <i class="fab fa-github-square" /> GitHub: {this.state.github}
+                  <i className="fab fa-github-square" /> GitHub: {this.state.github}
                 </p>
                 <p className="headerFont">
-                  <i class="fab fa-twitter-square" /> Twitter:
-                  {this.state.twitter}
+                  <i className="fab fa-twitter-square" /> Twitter: {this.state.twitter}
                 </p>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    );
+      </div>;
   }
 }
 

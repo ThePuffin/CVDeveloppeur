@@ -7,13 +7,12 @@ class Interets extends Component {
     this.state = {};
   }
   render() {
-    return (
-      <div>
+    return <div>
         <h3 className="droite">Centres d'intêrets</h3>
         <br />
-          <div className="container">
-        <div className="row">
-            <div className="col-6">
+        <div className="container">
+          <div className="row">
+            <div className="col-sm-12 col-md-6">
               <p className="pFont">
                 <i className="fas fa-book" /> Lecture
               </p>
@@ -28,7 +27,7 @@ class Interets extends Component {
                 <i className="fas fa-gamepad" /> Jeux vidéos
               </p>
             </div>
-            <div className="col-6">
+            <div className="col-sm-12 col-md-6">
               <p className="pFont">
                 <i className="fas fa-plane" /> Voyages
               </p>
@@ -44,8 +43,7 @@ class Interets extends Component {
             </div>
           </div>
         </div>
-      </div>
-    );
+      </div>;
   }
 }
 

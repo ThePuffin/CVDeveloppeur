@@ -21,12 +21,12 @@ class Competences extends Component {
         <br />
 
         <div className="row">
-          <div className="container col-4">
+          <div className="container col-sm-12 col-md-6">
             <div>
               <h4>Langages et frameworks</h4>
             </div>
             <div className="row">
-              <div className="col-6">
+              <div className="col-sm-12 col-md-6">
                 <p className="pFont">
                   <img src={imgHTLM} className="icons" alt="html" /> HTML 5
                 </p>
@@ -43,7 +43,7 @@ class Competences extends Component {
                   <img src={imgnodejs} className="icons" alt="nodejs" /> NodeJS
                 </p>
               </div>
-              <div className="col-6">
+              <div className="col-sm-12 col-md-6">
                 <p className="pFont">
                   <img src={imgreact} className="icons" alt="react" /> React
                 </p>
@@ -64,7 +64,7 @@ class Competences extends Component {
             </div>
           </div>
 
-          <div className="col-4">
+          <div className="col-sm-6 col-md-3">
             <h4>Langues</h4>
             <p className="pFont">Anglais (oral et écrit)</p>
             <br />
@@ -73,7 +73,7 @@ class Competences extends Component {
             <p className="pFont">Linux Ubuntu</p>
             <br />
           </div>
-          <div className="col-4">
+          <div className="col-sm-6 col-md-3">
             <h4>Logiciels</h4>
             <p className="pFont">Visualcode</p>
             <p className="pFont">GitHub</p>

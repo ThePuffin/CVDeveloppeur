@@ -37,15 +37,17 @@ class Presentation extends Component {
           <br />
           <div className="container col-sm-12 col-md-8">
             <div className="row lignePresentation">
-              <h1 className="col-sm-4 col-6">
+              <h1 className="col-sm-4 col-md-6 col-6">
                 {this.state.nom} {this.state.prenom}
               </h1>
 
-              <h2 className="col-sm-4 col-6">{this.state.poste}</h2>
+              <h2 className="col-sm-4 col-md-6 col-6">
+                {this.state.poste}
+              </h2>
             </div>
 
             <div className="row">
-              <div className="col-sm-4 col-6">
+              <div className="col-sm-4  col-md-6 col-6">
                 <br />
                 <p className="headerFont">
                   <i className="fas fa-road" /> {this.state.rue}
@@ -61,7 +63,7 @@ class Presentation extends Component {
                   <i className="fas fa-envelope-square" /> Email: {this.state.mail}
                 </p>
               </div>
-              <div className="col-sm-4 col-6">
+              <div className="col-sm-4 col-md-6 col-6">
                 <br />
                 <p className="headerFont">
                   <i className="fas fa-birthday-cake"> </i>

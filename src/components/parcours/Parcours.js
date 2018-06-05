@@ -56,12 +56,12 @@ class Parcours extends Component {
             <p className="colle traitVertHaut">|</p>
           </div>
           <div className="col-4 ">
-            <span>Novembre2005 à Février 2006</span>
+            <span>Novembre 2005 à Février 2006</span>
             <hr className="petitTrait traitBas" />
             <p className="colle traitVertHaut">|</p>
           </div>
           <div className="col-4 ">
-            <span>Ete 2002 et 2003</span>
+            <span>Etés 2002 et 2003</span>
             <hr className="petitTrait traitBas" />
             <p className="colle traitVertHaut">|</p>
           </div>
@@ -90,7 +90,7 @@ class Parcours extends Component {
               Réalisation de carottages<br />
             </p>
             <p className="descriptionParcours">
-              Redaction de compte-rendu<br />
+              Redaction de comptes-rendus<br />
             </p>
           </div>
           <div className="col-4">
@@ -103,7 +103,7 @@ class Parcours extends Component {
               Réalisation d'essais de chargement à la plaque<br />
             </p>
             <p className="descriptionParcours">
-              Rédaction de compte rendu des résultats<br />
+              Rédaction de comptes-rendus des résultats<br />
             </p>
           </div>
         </div>

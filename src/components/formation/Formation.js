@@ -20,7 +20,7 @@ class Formation extends Component {
             <h5>MAITRISE Sciences exactes et naturelles</h5>
             <p>Université Blaise Pascal – Clermont Ferrand</p>
             <span>
-              Mention Sciences de la Terre et de l’univers : Option
+              Mention Sciences de la Terre et de l'Univers : Option
               Géotechnique
             </span>
           </div>
@@ -28,7 +28,7 @@ class Formation extends Component {
             <h5>DEUG Sciences exactes et naturelles</h5>
             <p>Université Blaise Pascal – Clermont Ferrand</p>
             <span>
-              Mention Sciences de la Terre et de l’univers : Option
+              Mention Sciences de la Terre et de l'Univers : Option
               Volcanologie
             </span>
           </div>
@@ -75,7 +75,7 @@ class Formation extends Component {
             <h5>LICENCE Sciences exactes et naturelles</h5>
             <p>Université Blaise Pascal – Clermont Ferrand</p>
             <span>
-              Mention Sciences de la Terre et de l’univers : Option
+              Mention Sciences de la Terre et de l'Univers : Option
               Volcanologie
             </span>
           </div>

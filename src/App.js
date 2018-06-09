@@ -21,11 +21,11 @@ class App extends Component {
         </header>
         <div>
         <br/>
-          <Parcours />
-          <hr />
           <Formation />
           <hr />
           <Competences />
+          <hr />
+          <Parcours />
           <hr />
           <Interets />
         </div>

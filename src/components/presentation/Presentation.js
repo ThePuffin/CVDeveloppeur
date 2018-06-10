@@ -57,10 +57,10 @@ class Presentation extends Component {
                 </p>
                 <br />
                 <p className="headerFont">
-                  <i className="fas fa-phone-square" /> Téléphone: {this.state.tel}
+                  <i className="fas fa-phone-square" /> {this.state.tel}
                 </p>
                 <p className="headerFont">
-                  <i className="fas fa-envelope-square" /> Email: {this.state.mail}
+                  <i className="fas fa-envelope-square" /> {this.state.mail}
                 </p>
               </div>
               <div className="col-sm-4 col-md-6 col-6">
@@ -75,10 +75,10 @@ class Presentation extends Component {
                 </p>
                 <br />
                 <p className="headerFont">
-                  <i className="fab fa-github-square" /> GitHub: {this.state.github}
+                  <i className="fab fa-github-square" /> {this.state.github}
                 </p>
                 <p className="headerFont">
-                  <i className="fab fa-twitter-square" /> Twitter: {this.state.twitter}
+                  <i className="fab fa-twitter-square" /> {this.state.twitter}
                 </p>
               </div>
             </div>

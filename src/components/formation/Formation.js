@@ -8,7 +8,7 @@ class Formation extends Component {
   }
   render() {
     return <div>
-        <h3 className="droite">Formation</h3>
+        <h3 >Formation</h3>
         <br />
         <div className="row colle">
           <div className="col-4">

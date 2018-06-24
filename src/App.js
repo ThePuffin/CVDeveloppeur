@@ -29,10 +29,10 @@ class App extends Component {
           <Parcours />
           <hr />
           <div className="row">
-            <div className="col-6">
+            <div className="col-sm-12 col-md-8">
           <Projets/>
             </div>
-          <div className="col-6">
+            <div className="col-sm-12 col-md-4">
           <Interets />
           </div>
           </div>

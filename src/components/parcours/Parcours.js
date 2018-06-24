@@ -22,7 +22,7 @@ class Parcours extends Component {
               Gestion des clients<br />
             </p>
             <p className="descriptionParcours">
-              Réapsation de sondage in-situ<br />
+              Réalisation de sondage in-situ<br />
             </p>
             <p className="descriptionParcours">
               {" "}

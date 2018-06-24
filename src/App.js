@@ -5,14 +5,12 @@ import Parcours from "./components/parcours/Parcours";
 import Competences from "./components/competences/Competences";
 import Interets from "./components/interets/Interets";
 import Formation from "./components/formation/Formation";
-import Projets from "./components/Projets web/Projets";
+import Projets from "./components/projets/Projets";
 
 class App extends Component {
   constructor(props) {
     super(props);
-    this.state = {
-     
-    };
+    this.state = {};
   }
   render() {
     return (
@@ -21,7 +19,7 @@ class App extends Component {
           <Presentation />
         </header>
         <div>
-        <br/>
+          <br />
           <Formation />
           <hr />
           <Competences />
@@ -30,11 +28,11 @@ class App extends Component {
           <hr />
           <div className="row">
             <div className="col-sm-12 col-md-8">
-          <Projets/>
+              <Projets />
             </div>
             <div className="col-sm-12 col-md-4">
-          <Interets />
-          </div>
+              <Interets />
+            </div>
           </div>
         </div>
       </div>

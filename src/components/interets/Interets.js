@@ -7,7 +7,8 @@ class Interets extends Component {
     this.state = {};
   }
   render() {
-    return <div>
+    return (
+      <div>
         <h3 className="droite">Centres d'intêrets</h3>
         <br />
         <div className="container">
@@ -41,9 +42,11 @@ class Interets extends Component {
                 <i className="fas fa-football-ball" /> Rugby
               </p>
             </div>
+         
           </div>
         </div>
-      </div>;
+      </div>
+    );
   }
 }
 

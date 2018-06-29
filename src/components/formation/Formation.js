@@ -36,7 +36,7 @@ class Formation extends Component {
         <br />
         <div className="row">
           <div className="col-4 ">
-            <span>2018</span>
+          <span>février - août 2018</span>
             <hr className="petitTrait traitBas" />
             <p className="colle traitVertHaut">|</p>
           </div>

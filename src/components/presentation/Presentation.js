@@ -14,7 +14,6 @@ class Presentation extends Component {
       tel: "07.81.53.05.38",
       mail: "ballutvincent@gmail.com",
       github: "ThePuffin",
-      twitter: "Vincent_Ballut",
       nationalite: "Nationalité française",
       situation: "Celibataire",
       anniversaire: "1981/08/13"
@@ -76,9 +75,6 @@ class Presentation extends Component {
                 <br />
                 <p className="headerFont">
                   <i className="fab fa-github-square" /> {this.state.github}
-                </p>
-                <p className="headerFont">
-                  <i className="fab fa-twitter-square" /> {this.state.twitter}
                 </p>
               </div>
             </div>

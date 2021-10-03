@@ -36,11 +36,6 @@ class Projets extends Component {
             application mobile d'ajout de contenu pour une application vocale
             <i> - Projet client non abouti</i>
           </p>
-          <p>
-            <b>Bugcooker : </b>
-            site internet d'un restaurant gastronomique autour des insectes
-            <i>- Projet fictif</i>
-          </p>
         </div>
       </div>
     );

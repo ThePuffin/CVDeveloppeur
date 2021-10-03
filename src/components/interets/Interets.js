@@ -1,5 +1,6 @@
-import React, { Component } from "react";
-import "./Interets.css";
+import './Interets.css';
+
+import React, { Component } from 'react';
 
 class Interets extends Component {
   constructor(props) {
@@ -17,32 +18,25 @@ class Interets extends Component {
               <p className="pFont">
                 <i className="fas fa-book" /> Lecture
               </p>
-
               <p className="pFont">
-                <i className="fas fa-film" /> Cinéma
+                <i className="fas fa-utensils" /> Gastronomie
               </p>
               <p className="pFont">
                 <i className="fas fa-headphones" /> Musique
-              </p>
-              <p className="pFont">
-                <i className="fas fa-gamepad" /> Jeux vidéos
               </p>
             </div>
             <div className="col-sm-12 col-md-6">
               <p className="pFont">
                 <i className="fas fa-plane" /> Voyages
               </p>
-              <p className="pFont">
-                <i className="fas fa-utensils" /> Gastronomie
-              </p>
+
               <p className="pFont">
                 <i className="fas fa-hockey-puck" /> Hockey
               </p>
               <p className="pFont">
-                <i className="fas fa-football-ball" /> Rugby
+                <i className="fas fa-film" /> Cinéma
               </p>
             </div>
-         
           </div>
         </div>
       </div>

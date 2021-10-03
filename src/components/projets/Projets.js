@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
 class Projets extends Component {
   constructor(props) {
@@ -11,29 +11,35 @@ class Projets extends Component {
         <div className="col-sm-12 col-md-12">
           <h3 className="droite">Réalisations WEB</h3>
           <p>
-            <b>Mademoiselle FLE : </b>
-            back-office d'un site d'apprentissage du français
-            <i> - Projet client </i>
-          </p>{" "}
+            <p>
+              <a href="https://www.parkinsaclay.fr/recherche" target="_blank">
+                <b>Parkin'Saclay : </b>
+                application web de stationnement sur le plateau de Saclay
+                <i> - Projet client </i>
+              </a>
+            </p>{' '}
+            <a href="https://www.numahealth.com/entreprise-programme/" target="_blank">
+              <b>Numa Health Pilot : </b>
+              application web médicale visant à surveiller et améliorer la santé de patients
+              <i> - Projet client </i>{' '}
+            </a>
+          </p>{' '}
+          <p>
+            <a href="https://mobility.by.colas.com/offre-de-services/anais.html" target="_blank">
+              <b>Anais : </b>
+              application web d'étude et amélioration du système routier
+              <i> Projet client </i>{' '}
+            </a>
+          </p>{' '}
           <p>
             <b>La route des vins : </b>
             application mobile d'ajout de contenu pour une application vocale
-            <i> - Projet client</i>
+            <i> - Projet client non abouti</i>
           </p>
           <p>
             <b>Bugcooker : </b>
             site internet d'un restaurant gastronomique autour des insectes
             <i>- Projet fictif</i>
-          </p>
-          <p>
-            <b>Space meat : </b>
-            application mobile de rencontre sur le thème de star wars
-            <i> - Hackaton</i>
-          </p>
-          <p>
-            <b>Captain JSON : </b>
-            encyclopédie WEB sur le thème des super-héros
-            <i>- Hackaton</i>
           </p>
         </div>
       </div>

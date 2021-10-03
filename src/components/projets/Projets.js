@@ -12,20 +12,20 @@ class Projets extends Component {
           <h3 className="droite">Réalisations WEB</h3>
           <p>
             <p>
-              <a href="https://www.parkinsaclay.fr/recherche" target="_blank">
+              <a href="https://www.parkinsaclay.fr/recherche">
                 <b>Parkin'Saclay : </b>
                 application web de stationnement sur le plateau de Saclay
                 <i> - Projet client </i>
               </a>
             </p>{' '}
-            <a href="https://www.numahealth.com/entreprise-programme/" target="_blank">
+            <a href="https://www.numahealth.com/entreprise-programme/">
               <b>Numa Health Pilot : </b>
               application web médicale visant à surveiller et améliorer la santé de patients
               <i> - Projet client </i>{' '}
             </a>
           </p>{' '}
           <p>
-            <a href="https://mobility.by.colas.com/offre-de-services/anais.html" target="_blank">
+            <a href="https://mobility.by.colas.com/offre-de-services/anais.html">
               <b>Anais : </b>
               application web d'étude et amélioration du système routier
               <i> Projet client </i>{' '}

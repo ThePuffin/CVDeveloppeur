@@ -19,10 +19,10 @@ class Interets extends Component {
                 <i className="fas fa-book" /> Lecture
               </p>
               <p className="pFont">
-                <i className="fas fa-utensils" /> Gastronomie
+                <i className="fas fa-headphones" /> Musique
               </p>
               <p className="pFont">
-                <i className="fas fa-headphones" /> Musique
+                <i className="fas fa-utensils" /> Gastronomie
               </p>
             </div>
             <div className="col-sm-12 col-md-6">

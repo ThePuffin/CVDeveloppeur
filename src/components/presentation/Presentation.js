@@ -1,22 +1,24 @@
-import React, { Component } from "react";
-import "./Presentation.css";
-import photoProfil from "../../images/vince.jpg";
+import './Presentation.css';
+
+import React, { Component } from 'react';
+
+import photoProfil from '../../images/vince.jpg';
 
 class Presentation extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      nom: "BALLUT",
-      prenom: "Vincent",
-      poste: "Développeur WEB junior",
-      rue: "3 boulevard Eugène Reguillon",
-      ville: "69100 VILLEURBANNE",
-      tel: "07.81.53.05.38",
-      mail: "ballutvincent@gmail.com",
-      github: "ThePuffin",
-      nationalite: "Nationalité française",
-      situation: "Celibataire",
-      anniversaire: "1981/08/13"
+      nom: 'BALLUT',
+      prenom: 'Vincent',
+      poste: 'Développeur WEB fullstack',
+      rue: '3 boulevard Eugène Reguillon',
+      ville: '69100 VILLEURBANNE',
+      tel: '07.81.53.05.38',
+      mail: 'ballutvincent@gmail.com',
+      github: 'ThePuffin',
+      nationalite: 'Nationalité française',
+      situation: 'Celibataire',
+      anniversaire: '1981/08/13',
     };
     this.age = this.age.bind(this);
   }
@@ -28,7 +30,8 @@ class Presentation extends Component {
     return age;
   }
   render() {
-    return <div>
+    return (
+      <div>
         <div className="row">
           <div className="container d-none d-md-block col-md-4 ">
             <img className="imgProfil" src={photoProfil} alt="Vincent BALLUT" />
@@ -40,9 +43,7 @@ class Presentation extends Component {
                 {this.state.nom} {this.state.prenom}
               </h1>
 
-              <h2 className="col-sm-4 col-md-6 col-6">
-                {this.state.poste}
-              </h2>
+              <h2 className="col-sm-4 col-md-6 col-6">{this.state.poste}</h2>
             </div>
 
             <div className="row">
@@ -80,7 +81,8 @@ class Presentation extends Component {
             </div>
           </div>
         </div>
-      </div>;
+      </div>
+    );
   }
 }
 

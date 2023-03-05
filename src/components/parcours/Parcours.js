@@ -56,7 +56,7 @@ class Parcours extends Component {
         <br />
         <div className="row">
           <div className="col-4 ">
-            <span> Juin 2006 à mai 2017 </span>
+            <span> Depuis septembre 2018 </span>
             <hr className="petitTrait traitBas" />
             <p className="colle traitVertHaut">|</p>
           </div>

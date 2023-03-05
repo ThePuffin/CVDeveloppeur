@@ -9,32 +9,34 @@ class Projets extends Component {
     return (
       <div>
         <div className="col-sm-12 col-md-12">
-          <h3 className="droite">Réalisations WEB</h3>
+          <h3 className="rightSide">Réalisations WEB</h3>
           <p>
             <p>
-              <a href="https://www.parkinsaclay.fr/recherche">
+              <a target="_blank" href="https://www.parkinsaclay.fr">
                 <b>Parkin'Saclay : </b>
                 application web de stationnement sur le plateau de Saclay
                 <i> - Projet client </i>
               </a>
-            </p>{' '}
-            <a href="https://www.numahealth.com/entreprise-programme/">
+            </p>
+            <a target="_blank" href="https://www.numahealth.com/">
               <b>Numa Health Pilot : </b>
               application web médicale visant à surveiller et améliorer la santé de patients
-              <i> - Projet client </i>{' '}
+              <i> - Projet client </i>
             </a>
-          </p>{' '}
+          </p>
           <p>
-            <a href="https://mobility.by.colas.com/offre-de-services/anais.html">
+            <a target="_blank" href="https://mobility.by.colas.com/offre-de-services/anais.html">
               <b>Anais : </b>
               application web d'étude et amélioration du système routier
-              <i> Projet client </i>{' '}
+              <i> Projet client </i>
             </a>
-          </p>{' '}
+          </p>
           <p>
-            <b>La route des vins : </b>
-            application mobile d'ajout de contenu pour une application vocale
-            <i> - Projet client non abouti</i>
+            <a target="_blank" href="https://mobility.by.colas.com/offre-de-services/qievo.html">
+              <b>Qievo </b>
+              application web de gestion de flux de travailleur
+              <i> - Projet client </i>
+            </a>
           </p>
         </div>
       </div>

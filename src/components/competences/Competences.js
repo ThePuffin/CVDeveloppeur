@@ -20,7 +20,7 @@ class Competences extends Component {
   render() {
     return (
       <div>
-        <h3 className="droite"> Compétences </h3> <br />
+        <h3 className="rightSide"> Compétences </h3> <br />
         <div className="row">
           <div className="container col-sm-12 col-md-6">
             <div>

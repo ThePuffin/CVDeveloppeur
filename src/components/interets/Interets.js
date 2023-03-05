@@ -10,7 +10,7 @@ class Interets extends Component {
   render() {
     return (
       <div>
-        <h3 className="droite largeur">Intêrets</h3>
+        <h3 className="rightSide">Intêrets</h3>
         <br />
         <div className="container">
           <div className="row">

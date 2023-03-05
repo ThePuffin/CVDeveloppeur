@@ -15,27 +15,31 @@ class Projets extends Component {
               <a target="_blank" href="https://www.parkinsaclay.fr">
                 <b>Parkin'Saclay : </b>
                 application web de stationnement sur le plateau de Saclay
-                <i> - Projet client </i>
+                <i> - Développement Front et Back </i>
+                <i> - Durée 3 ans </i>
               </a>
             </p>
             <a target="_blank" href="https://www.numahealth.com/">
               <b>Numa Health Pilot : </b>
-              application web médicale visant à surveiller et améliorer la santé de patients
-              <i> - Projet client </i>
+              application web médicale visant à surveiller et améliorer la santé
+              <i> - Développement Front et Back </i>
+              <i> - Durée 6 mois </i>
             </a>
           </p>
           <p>
             <a target="_blank" href="https://mobility.by.colas.com/offre-de-services/anais.html">
               <b>Anais : </b>
               application web d'étude et amélioration du système routier
-              <i> Projet client </i>
+              <i> - Développement Front et Back </i>
+              <i> - Durée 2.5 mois </i>
             </a>
           </p>
           <p>
             <a target="_blank" href="https://mobility.by.colas.com/offre-de-services/qievo.html">
               <b>Qievo </b>
               application web de gestion de flux de travailleur
-              <i> - Projet client </i>
+              <i> - Développement Back </i>
+              <i> - Durée 2.5 mois </i>
             </a>
           </p>
         </div>
